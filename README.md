@@ -53,7 +53,7 @@ $ docker build -t yourusername/test .
                 ^ custom tag name 
 
 
-# Docker Compose - docker-compose.yml file 
+### Docker Compose - docker-compose.yml file 
 version: "3"
 services:
   es:

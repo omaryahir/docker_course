@@ -54,6 +54,7 @@ $ docker build -t yourusername/test .
 
 
 ### Docker Compose - docker-compose.yml file 
+```
 version: "3"
 services:
   es:
@@ -76,8 +77,8 @@ services:
       - ./flask-app:/opt/flask-app 
 volumes:
   esdata1:
-    driver:local 
-
+    driver:loca` 
+```
 
 
 
